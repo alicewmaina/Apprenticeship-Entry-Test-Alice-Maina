@@ -1,0 +1,18 @@
+question 6: Explain how you would use Git to collaborate on a team project with other developers.
+ Mention at least:
+    • One common Git command you use often.
+
+    • One problem you’ve faced while using Git and how you solved it.
+
+//Answer
+
+To collaborate on a team project using Git, each developer clones the shared repository and works on their own feature branch instead of the main branch.
+Developers make changes locally, commit them with clear messages and then push the branch to the remote repository.
+Team members regularly pull updates from the main branch to stay in sync and avoid conflicts.
+
+Common Git command:
+git pull — This command is used frequently to fetch and merge the latest changes from the remote repository into your local branch, ensuring your code is up to date with the rest of the team.
+
+Problem faced and solution:
+A common issue is merge conflicts, which occur when two developers modify the same part of a file.
+To resolve it, I review the conflicting code sections, decide which version to keep (or merge both if needed), then stage the resolved file using git add and finalize with git commit to complete the merge.
