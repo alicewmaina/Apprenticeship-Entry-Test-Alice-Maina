@@ -1,0 +1,17 @@
+Question 2: Explain how you would optimize a page that loads too slowly. Mention at least three causes and how you’d fix each.
+
+When a web page loads too slowly, it negatively affects user experience, search rankings and conversion rates. To optimize such a page, I would first identify the causes of the slowdown and then apply specific solutions to fix each issue.
+
+Here are three common causes and how to address them:
+
+1. Large or Unoptimized Images
+Cause: Images are too large or not compressed increasing load time.
+Fix: Compress images, use modern formats (like WebP) and set proper dimensions. Use lazy loading so images load only when the user scrolls to them.
+
+2. Too Many HTTP Requests
+Cause: Loading many JavaScript, CSS and image files increases the number of requests the browser must make.
+Fix: Minimize and combine CSS and JavaScript files to reduce the number of requests. Also use lazy loading for images. Use a Content Delivery Network (CDN) to serve assets faster from multiple locations.
+
+3. Inefficient Server or Hosting Performance
+Cause: A slow or overloaded web server increases response time, delaying page rendering.
+Fix: Upgrade to a better hosting plan (e.g. dedicated server). Enable caching (browser, server-side or CDN caching). Use server compression methods like Gzip to speed up data transfer.
